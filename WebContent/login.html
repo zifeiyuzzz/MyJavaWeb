@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>用户登录</title>
+<style type="text/css">
+	div{
+		height:32px
+		width:245px
+	}
+	/*类选择器*/
+	.content{
+		margin:0 auto;
+		border:3px solid #cec9d3;
+		height:100px;
+		width:245px;
+		background-color:#eadfdf; 
+		padding-top:10px;
+		padding-left:10px;
+		text-align:center;
+	}
+</style>
+</head>
+
+
+<body>
+<form action="LoginServlet" method="post"><!-- 消息体 -->
+	<div class="content">
+		<div>
+		账号：<input type="text" name="userno" id="userno">
+		</div>
+		<div>
+		密码：<input type="password" name="password" id="password">
+		</div>
+		<input type="submit" value="提交">
+	</div>
+</form>
+
+
+</body>
+</html>
